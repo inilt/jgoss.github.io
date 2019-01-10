@@ -1,0 +1,141 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta char="ut-8">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>   
+    <div class ="logo">
+        <img src="Images/logo.jpg" style="width:89.1;height:47.4";>
+    </div>
+           
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="about.html">ABOUT</a></li>             
+    </ul>
+
+    <hr>
+    <h1>CLOTHING</h1>
+    
+    <div class="gallerycontainer">
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">BUY NOW</button>
+        
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <p2>Item Name:  Placeholder Product</p2><br>
+                <p2>Price:  £75</p2><br>
+                <p2>Size: </p2><br>
+                <select>
+                    <option value="xsmall">Extra-Small</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="xlarge">Extra-Large</option>
+                </select>
+                <p3>SORRY WE ARE CURRENTLY NOT TAKING ORDERS</p3>
+                </div>
+            </div>
+        </div>    
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div> 
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        <div class="gallery">
+            <img src="Images/webcontent/Products/blue-faded-hoodie-back_250x250@2x.jpg" alt="5Terre" width="250" height="250">
+            <div class="desc">Placeholder Product<br/>£75</div>
+            <button id="myBtn">OUT OF STOCK</button>
+        </div>
+        
+        
+    </div>
+    <br>
+    
+    
+    
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+    
+
+
+    
+</body>
+</html>
